@@ -1,1 +1,1 @@
-from RAKE import Rake
+from .RAKE import Rake
