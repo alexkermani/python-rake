@@ -10,6 +10,6 @@ The source code is released under the MIT License.
 
 ### Usage ###
     import RAKE
-    Rake = RAKE.Rake([path_to_your_stopwords_file]);
+    Rake = RAKE.Rake('path_to_your_stopwords_file');
     # You can use one of the stoplists included in the repository under stoplists/
     Rake.run(text);
